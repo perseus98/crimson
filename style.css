@@ -1,0 +1,156 @@
+* {
+    color: aliceblue;
+}
+
+#myhead {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 100;
+}
+
+#fix {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+}
+
+.navbar-brand {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/* body{
+    font-family: cursive;
+    font-size: 1.2em;
+} */
+.myrow {
+    border-bottom: 1px white solid;
+}
+
+main {
+    margin: 5%;
+    background-image: url("./images/bg_home.jpg");
+    background-size: cover;
+    color: rgb(66, 5, 36);
+}
+
+.myhead2 {
+    text-shadow: 2px 2px 2px rgb(75, 39, 39);
+    border-bottom: 1px rgb(75, 39, 39) solid;
+}
+
+@media (max-width: 768px) {
+    #collapsibleNavId {
+        padding: 20px;
+        background-color: rgb(35, 19, 19);
+    }
+}
+
+.mybg {
+    background-color: black;
+    opacity: 0.75;
+    /* color: white; */
+}
+
+.shd {
+    text-shadow: 2px 2px 2px #404040;
+}
+
+.mycard {
+    transition: 1s;
+}
+
+.mycard:hover {
+    transform: scale(1.1);
+}
+
+.navbar-dark .navbar-nav .nav-link .navbar-brand {
+    color: rgb(195, 0, 0);
+    opacity: 0.8;
+}
+
+.card {
+    box-shadow: 3px 3px 3px black;
+    transition: 1s;
+}
+
+.card img {
+    box-shadow: 2px 2px 2px black;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+#home {
+    background-image: url("./images/bg_home.jpg") !important
+}
+
+#footer {
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* .navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;} */
+.navbar {
+    min-height: 10px !important;
+    background-color: rgba(211, 34, 34, 0.3);
+}
+
+.navbar-brand {
+    color: rgb(119, 0, 0);
+}
+
+/* #topic{
+    color: #cccccc;
+} */
+#login {
+    z-index: 5000;
+}
+
+.cor-img {
+    width: 1250px;
+    height: 550px;
+}
+
+h1 {
+    color: whitesmoke;
+    left: 100%;
+    top: 50%;
+}
+
+h3 {
+    color: whitesmoke !important;
+}
+
+.myerror {
+    color: rgb(73, 0, 0);
+}
+
+tr {
+    color: azure;
+}
+
+#welcome {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-text {
+    color: #000;
+}
+
+.notification {
+    color: black;
+}
